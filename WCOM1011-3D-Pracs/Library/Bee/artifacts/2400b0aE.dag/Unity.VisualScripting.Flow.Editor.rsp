@@ -109,8 +109,10 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:CROSS_PLATFORM_INPUT
+-define:STARTER_ASSETS_PACKAGES_CHECKED
+-define:PACKAGE_INPUT_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/home/rahul/Comp1150/WCOM1011-3D-Pracs/WCOM1011-3D-Pracs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
@@ -328,6 +330,8 @@
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.VisualScripting.Flow.ref.dll"

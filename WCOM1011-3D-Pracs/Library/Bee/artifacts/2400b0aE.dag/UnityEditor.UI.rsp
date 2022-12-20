@@ -109,8 +109,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:CROSS_PLATFORM_INPUT
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_ANIMATION
@@ -331,6 +332,7 @@
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"

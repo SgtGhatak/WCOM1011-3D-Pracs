@@ -109,8 +109,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:CROSS_PLATFORM_INPUT
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/home/rahul/Comp1150/WCOM1011-3D-Pracs/WCOM1011-3D-Pracs/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
@@ -318,7 +319,9 @@
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 -r:"/home/rahul/Unity/Hub/Editor/2021.2.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -341,6 +344,7 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 "Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs"
 "Assets/Standard Assets/2D/Scripts/CameraFollow.cs"
 "Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs"
